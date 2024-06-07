@@ -1,0 +1,68 @@
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    width: 70%;
+    height: 40px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border: none;
+    border-bottom: none;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    align-items: center;
+    margin: auto;
+    transition: 0.4s ease-in-out;
+}
+
+.para {
+    margin: auto;
+    width: 70%;
+    max-height: 0;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.bottom {
+    border-bottom: 1px solid #000;
+}
+
+.active,
+.Accordion:hover {
+    background-color: #e7e5e4;
+}
+
+.fa-solid {
+    transition: 0.4s ease-out;
+}
+
+.active .fa-solid {
+    transform: rotate(180deg);
+    transition: 0.4s ease-out;
+}
